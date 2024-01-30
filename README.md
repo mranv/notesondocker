@@ -90,7 +90,6 @@ sudo docker run -ti --rm -v ~/Docker_Share:/data ubuntu /bin/bash
 
 Access and modify files in the `/data` directory, persisting data between host and container.
 
- Here is a README.md file with instructions on how to persist data on an Ubuntu Docker container:
 
 ```md
 # Persisting Data on the Ubuntu Docker Container
@@ -140,9 +139,6 @@ The key points are:
 - Create a Docker volume on the host machine 
 - Mount it when starting the container using `-v host_dir:container_dir`
 - Modifications on either the host or container will be mirrored
-
-
-Let me know if you would like me to modify or expand on anything!
 
 ## Conclusion
 
